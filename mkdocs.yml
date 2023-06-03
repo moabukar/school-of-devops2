@@ -1,0 +1,30 @@
+site_url: https://moabukar.github.io/school-of-devops/
+site_name: School Of DevOps
+docs_dir: pathway
+theme:
+  name: material
+  logo: img/sos.png
+  favicon: img/favicon.ico
+  custom_dir: overrides
+extra_css:
+    - stylesheets/custom.css
+nav:
+- Home: index.md
+- Level 1:
+    - Fundamentals:
+        - Linux:
+            - Linux: level101/linux_basics/basics.md
+        - Git:
+            - Git Basics: level1/git/git-basics.md
+            - Working With Branches: level1/git/branches.md
+            - Github and Hooks: level101/git/github-hooks.md
+            - Conclusion: level101/git/conclusion.md
+        - Linux Networking:
+            - Introduction: level1/linux_networking/intro.md
+- Contribute: CONTRIBUTING.md
+- Code of Conduct: CODE_OF_CONDUCT.md
+copyright: "Copyright 2023 CoderCo. All Rights Reserved. Licensed under the Creative Commons Attribution 4.0 International Public License"
+extra:
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/moabukar/school-of-devops
